@@ -1,7 +1,7 @@
 {
  "name": "Screenshot Bot",
  "description": "Screenshot /Sample Video / Trim Video files",
- "logo": "https://telegra.ph/file/a3a32dcceb8201635c1f0.jpg",
+ "logo": "https://telegra.ph/file/02edc63667bee3ecb44a2.jpg",
  "stack": "heroku-20", 
  "keywords": [
    "telegram",
@@ -9,18 +9,18 @@
    "Sample video",
    "Trim Video"
   ],
-  "repository": "https://github.com/MRK-YT/MT-screenshot-bot",
+  "repository": "https://github.com/Yukawa-BeatsMT-screenshot-bot",
   "env": {
     "API_ID": {
-      "description": "Your Telegram API ID. Get this value from https://youtu.be/5eEsvLAKVc0! ",
+      "description": "Your Telegram API ID. Get this value from my.telegram.org ",
       "value": ""
     },
     "API_HASH": {
-      "description": " Your Telegram API HASH. Get this value from https://youtu.be/5eEsvLAKVc0!",
+      "description": " Your Telegram API HASH. Get this value from my.telegram.org",
       "value": ""
     },
     "BOT_TOKEN": {
-      "description": "Your Bot token, as a string. https://youtu.be/cB4UduCcNWs",
+      "description": "Your Bot token, as a string.",
       "value": ""
     },
     "SESSION_NAME": {
@@ -32,7 +32,7 @@
       "value": ""
     },
     "DATABASE_URL": {
-      "description": "Mongodb database URI from https://youtu.be/gBLTsH-IXr0",
+      "description": "Mongodb database URL ",
       "value": ""
     },
     "AUTH_USERS": {
