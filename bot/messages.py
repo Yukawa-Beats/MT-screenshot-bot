@@ -1,33 +1,33 @@
 class Messages:
     ADDED_TO_QUEUE = (
-        "Your request has been added to the queue. If you have more than {per_user_process_count} "
-        "ongoing processes, then this process will only start after one of them finishes."
+        "Your Request Has Been Added To The Queue. If You Have More Than {per_user_process_count} "
+        "Ongoing Processes, Then This Process Will Only Start After One Of Them Finishes."
     )
-    MEDIA_MESSAGE_DELETED = "Why did you delete the file 😠, Now i cannot help you 😒."
-    CANNOT_OPEN_FILE = "😟 Sorry! I cannot open the file."
+    MEDIA_MESSAGE_DELETED = "Why Did You Delete The File 😠, Now I Cannot Help You 😒."
+    CANNOT_OPEN_FILE = "😟 Sorry! I Cannot Open The File."
     PROCESS_TIMEOUT = (
-        "😟 Sorry! process failed due to timeout. Your process was "
-        "taking too long to complete, hence cancelled."
+        "😟 Sorry! Process Failed Due To Timeout. Your Process Was "
+        "Taking Too Long To Complete, Hence Cancelled."
     )
     TRACK_USER_ACTIVITY = "User id: `{chat_id}`"
-    PROCESSING_REQUEST = "Processing your request, Please wait! 😴"
+    PROCESSING_REQUEST = "Processing Your Request, Please Wait! 😴"
     SCREENSHOT_AT = "ScreenShot at {time}"
-    SCREENSHOT_PROCESS_FAILED = "😟 Sorry! Screenshot generation failed possibly due to some infrastructure failure 😥."
+    SCREENSHOT_PROCESS_FAILED = "😟 Sorry! Screenshot Generation Failed Possibly Due To Some Infrastructure Failure 😥."
     SCREENSHOT_PROCESS_SUCCESS = (
-        "🤓 You requested {count} screenshots and "
-        "{total_count} screenshots generated, "
-        "Now starting to upload!"
+        "🤓 You Requested {count} Screenshots And "
+        "{total_count} Screenshots Generated, "
+        "Now Starting To Upload!"
     )
     PROCESS_UPLOAD_CONFIRM = (
-        "Successfully completed process in {total_process_duration}\n\n"
-        "If You find me helpful, please rate me [here](tg://resolve?domain=botsarchive&post=1206)."
+        "Successfully Completed Process In {total_process_duration}\n\n"
+        "If You find Me Helpful, Please Rate Me [here](tg://resolve?domain=botsarchive&post=1206)."
     )
-    WRONG_FORMAT = "Please follow the specified format"
-    VIDEO_PROCESS_CAPTION = "Sample video. {duration}s from {start}"
-    SCREENSHOTS_START = "😀 Generating screenshots!."
+    WRONG_FORMAT = "Please Follow The Specified Format"
+    VIDEO_PROCESS_CAPTION = "Sample Video. {duration}s From {start}"
+    SCREENSHOTS_START = "😀 Generating Screenshots!."
 
-    SAMPLE_VIDEO_PROCESS_START = "😀 Generating Sample Video! This might take some time."
-    SAMPLE_VIDEO_PROCESS_FAILED = "😟 Sorry! Sample video generation failed possibly due to some infrastructure failure 😥."
+    SAMPLE_VIDEO_PROCESS_START = "😀 Generating Sample Video! This Might Take Some Time."
+    SAMPLE_VIDEO_PROCESS_FAILED = "😟 Sorry! Sample Video Generation Failed Possibly Due To Some Infrastructure Failure 😥."
     SAMPLE_VIDEO_PROCESS_SUCCESS = (
         "🤓 Sample video was generated successfully!, Now starting to upload!"
     )
