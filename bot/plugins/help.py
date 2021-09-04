@@ -6,8 +6,8 @@ from bot.config import Config
 
 
 BUTTONS = [[
-    InlineKeyboardButton('Home 🏡', callback_data='home'),
-    InlineKeyboardButton('Close 📛', callback_data='close')
+    InlineKeyboardButton('HOME 🏡', callback_data='home'),
+    InlineKeyboardButton('CLOSE 📛', callback_data='close')
 ]]
 
 HELP_TEXT = """
@@ -29,9 +29,7 @@ Use /set_watermark to set custom watermarks to your screenshots.
 👉 If the bot dosen't respond to telegram files you forward, first check /start and --confirm bot is alive--. Then make sure the file is a **video file** which satisfies above mentioned conditions.
 👉 If bot replies __😟 Sorry! I cannot open the file.__, the file might be --currupted-- or --is malformatted--.
 
-__If issues persists contact my father.__
-
-{admin_notification}
+©️ YUKAWA BEATS 👉 @ybdemochannel
 """
 ADMIN_NOTIFICATION_TEXT = (
     "Since you are one of the admins, you can check /admin to view the admin commands."
